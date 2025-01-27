@@ -15,15 +15,7 @@ An AI-powered autocorrect tool designed to improve text accuracy by performing s
 
 ## Project Structure
 
-├── app.py # Main Flask application 
-├── model.py # SymSpell and T5 model integration 
-├── templates 
-│    └── index.html # HTML template for the web interface 
-├── static  
-│    └── images │ 
-│        └── background_video.mp4 # Background video for the interface 
-├── frequency_dictionary_en.txt # Dictionary for SymSpell 
-└── README.md 
+![alt text](image.png)
 
 
 ---
@@ -42,6 +34,7 @@ An AI-powered autocorrect tool designed to improve text accuracy by performing s
 Install dependencies:
 
 2. Install dependencies:
+    ```bash
     pip install -r requirements.txt
     Download frequency_dictionary_en.txt:
 
@@ -49,11 +42,11 @@ Install dependencies:
     Place it in the project root directory.
 
 4. Run the Flask app:
-
+    ```bash
     python app.py
     
 5. Open your browser and go to:
-
+    ```bash
     http://127.0.0.1:5000/
 
 ### Usage
@@ -75,8 +68,8 @@ Install dependencies:
 
 
 ### Known Issues
-    * The t5-small model may struggle with very complex grammar corrections.
-    * SymSpell requires a comprehensive dictionary file for effective spelling corrections.
+    1. The t5-small model may struggle with very complex grammar corrections.
+    2. SymSpell requires a comprehensive dictionary file for effective spelling corrections.
 
 ### Author
     
