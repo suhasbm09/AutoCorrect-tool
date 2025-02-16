@@ -29,7 +29,7 @@ An AI-powered autocorrect tool designed to improve text accuracy by performing s
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/autocorrect-tool.git
+   git clone https://github.com/suhasbm09/autocorrect-tool.git
    cd autocorrect-tool
 Install dependencies:
 
