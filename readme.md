@@ -29,7 +29,7 @@ An AI-powered autocorrect tool designed to improve text accuracy by performing s
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/suhasbm09/autocorrect-tool.git
+   git clone https://github.com/suhasbm09/AutoCorrect-tool.git
    cd autocorrect-tool
 Install dependencies:
 
@@ -68,9 +68,9 @@ Install dependencies:
 
 
 ### Known Issues
-    1. The t5-small model may struggle with very complex grammar corrections.
-    2. SymSpell requires a comprehensive dictionary file for effective spelling corrections.
+* The t5-small model may struggle with very complex grammar corrections.
+* SymSpell requires a comprehensive dictionary file for effective spelling corrections.
 
 ### Author
     
-    Developed by SUHAS B M. Feel free to reach out at suhasbm2004@gmail.com 
+   Developed by SUHAS B M. Feel free to reach out at suhasbm2004@gmail.com 
